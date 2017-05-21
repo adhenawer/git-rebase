@@ -63,7 +63,7 @@ Salve a alteração (**:x!**)
 
 ### No próximo passo, altere o texto padrão do git rebase pela descrição desejada do seu commit e salve novamente (**:x!**). Exemplo:
 
-#### De *mensagem padrão do git*
+#### De *(mensagem padrão do git)*
 ```
 # This is a combination of 3 commits.
 # This is the 1st commit message:
@@ -79,7 +79,7 @@ Salve a alteração (**:x!**)
 #5 commit
 ``` 
 
-#### Para *sua mensagem*
+#### Para *(sua mensagem)*
 
 ```
 Commits [#3, #4, #5]
