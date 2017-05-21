@@ -1,6 +1,6 @@
 ## Usando git rebase
 
-É comum durante o desenvolvimento gerar mais de um commit na mesma branch, com o [git rebase](https://git-scm.com/docs/git-rebase) é possível juntar todos eles em um único commit para enviar o merge request e manter um histórico limpo de alterações.
+É comum durante o desenvolvimento gerar mais de um commit na branch. Com o [git rebase](https://git-scm.com/docs/git-rebase) é possível juntar todos eles em um único commit para enviar o merge request e manter um histórico limpo de alterações.
 
 [Veja um exemplo de merge request com vários commits](https://github.com/adhenawer/testes/pull/1/commits)
 
