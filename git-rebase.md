@@ -8,11 +8,17 @@
 
 ### Abaixo o passo-a-passo para execução do rebase
 
-git commit -m "#3 commit"
+No exemplo foram usados 3 commits
 
-git commit -m "#4 commit" 
+```
+$ git commit -m "#3 commit"
 
-git commit -m "#5 commit"
+$ git commit -m "#4 commit" 
+
+$ git commit -m "#5 commit" 
+``` 
+
+Após ter feito todos os commits execute o rebase:
 
 **git rebase -i HEAD~3**
 
@@ -43,7 +49,7 @@ pick d2ed1cd #5 commit
 # Note that empty commits are commented out
 ```
 
-### Deixe o primeiro commit como pick e os demais como s (squashed)
+### Deixe o primeiro commit como pick e os demais como s (squash)
 
 ```
 pick 86a2e56 #3 commit 
@@ -68,7 +74,7 @@ Salve a alteração (**:x!**)
 
 # This is the commit message #3:
 
-#4 commit
+#5 commit
 ``` 
 
 #### Para
@@ -77,7 +83,7 @@ Salve a alteração (**:x!**)
 Commits [#3, #4, #5]
 ```
 
-### Voce deve receber o retorno
+### Você deve receber o retorno
 
 ```
 detached HEAD f3084e0] Commits [#3 #4 #5]
