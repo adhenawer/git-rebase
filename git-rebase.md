@@ -21,7 +21,7 @@ $ git commit -m "#5 commit"
 Após ter feito todos os commits execute o rebase:
 
 ```
-$ git rebase -i HEAD~3**
+$ git rebase -i HEAD~3
 ```
 
 ### Irá abrir os commits que vão ser mergeados
